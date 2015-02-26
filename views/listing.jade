@@ -1,0 +1,66 @@
+extends layout
+
+block header
+   #header
+    #header-txt
+     #logo
+      h1 Sample
+     #menu
+      ul
+       li
+        a(href="#") Home
+       li
+        a(href="#") About us
+       li
+        a(href="#") Products
+       li
+        a(href="#") Services
+       li
+        a(href="#") Career
+       li
+        a(href="#") Contact Us
+
+  block content
+   #content
+    #content-div
+     #banner
+      ul
+       li(class="b0")
+        img(src="images/1.jpg")
+       li(class="b1")
+        img(src="images/2.jpg")
+       li(class="b2")
+        img(src="images/3.jpg")
+      #loading-ico
+       ul
+        li(class="load0")
+        li(class="load1")
+        li(class="load2")
+     #index
+       p #{title1}
+       p #{title2}
+       p #{title3}
+       p #{title4}
+       //table(border="0",border-collapse="collapse")
+        //tr
+         //td &nbsp;&nbsp;&nbsp;&nbsp;
+         //td First Name
+         //td 
+           //input(type="text")
+         //td &nbsp;&nbsp;&nbsp;&nbsp;
+         //td Last Name
+         //td 
+           //input(type="text")
+        //tr
+         //td &nbsp;&nbsp;&nbsp;&nbsp;
+         //td Phone
+         //td 
+           //input(type="text")
+         //td &nbsp;&nbsp;&nbsp;&nbsp;
+         //td Email-id
+         //td 
+           //input(type="text")
+  block footer
+   #footer 
+    #footer-txt
+     h1 footer
